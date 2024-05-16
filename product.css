@@ -256,3 +256,14 @@
 .main-wrap .product .image-gallery .controls .btn1 .active{
     background: #1652a0;
 }
+@media screen and (max-width: 500px) {
+   .main-wrap{
+    width: 180%;
+   }
+   .product-details{
+    width: 70%;
+   }
+    p{
+        display: none;
+    }
+}
